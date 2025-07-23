@@ -1,24 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-         <h1>Hola, este es mi nuevo cambio</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>¡Hola desde React y AWS Amplify!</h1>
+      <p>Mi primer despliegue automático con GitHub y AWS.</p>
     </div>
   );
 }
